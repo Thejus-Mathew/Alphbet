@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.custom-search-input:focus {
+    border-color: #1d9496;
+    box-shadow: 0 0 0 0.1rem #1d9496;
+    outline: none;
+}
+.custom-search-input {
+    border-color: #1d9496;
+    box-shadow: 0 0 0 0.01rem #1d9496;
+    outline: none;
+}
+
+.logoColor{
+    color: #1d9496;
+}
+.logoColor:hover{
+    color: #1d9496;
+}
+
+.custom-outline {
+    border-color: #1d9496;
+    color: #1d9496;
+}
+  
+.custom-outline:hover {
+    border: 2px #1d9496 solid;
+    color: #1d9496;
+}
+.custom-outline:focus {
+    border-color: #1d9496;
+    color: #1d9496;
+}
+
+.poster{
+    width: 100%;
+}
+.poster1{
+    width: 60%;
+}
+
+.poster-container{
+    background: linear-gradient(90deg, rgba(4,9,47,1) 0%, rgba(4,9,47,1) 40%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 100%);
+}
+.blueposter{
+    height: 40%;
+    width: 45%;
+    background-color: rgba(4,9,47,1);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.whiteposter{
+    height: 30%;
+    width: 41%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.customCard{
+    transition: all 0.2s ease-in-out;
+}
+.customCard:hover{
+    scale: 1.02;
+}
+.contactImage{
+    width: 30%;
+}
+
+@media screen and (max-width:767px){
+    .poster1{
+        display: none;
+    }
+    .poster-container{
+        background: linear-gradient(90deg, rgba(4,9,47,1) 0%, rgba(4,9,47,1) 1%, rgba(255,255,255,1) 1%, rgba(255,255,255,1) 100%);
+    }
+    .blueposter{
+        display: none;
+    }
+    .whiteposter{
+        display: none;
+    }
+    .customCard:hover{
+        scale: 1;
+    }
+    .contactImage{
+        width: 70%;
+    }
+}
