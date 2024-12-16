@@ -8,13 +8,15 @@ import Poster from './Components/Poster'
 function App() {
 
   return (
-    <div style={{overflowX:"hidden"}}>
+    <>
     <Header/>
     <Poster/>
+    <div style={{overflowX:"hidden"}}>
     <Courses/>
+    </div>
     <Contact/>
     <Footer/>
-    </div>
+    </>
   )
 }
 
