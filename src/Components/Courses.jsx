@@ -45,7 +45,7 @@ function Courses() {
   return (
     <div className='container mb-5 w-100'>
       <h2 className='logoColor'>Our Services</h2>
-      <div className="slider-container ">
+      <div className="slider-container silderContainer">
         <Slider {...settings} className='py-1'>
             <div className="p-2" onClick={handleShow}>
                 <div className='card rounded customCard' style={{overflow:"hidden"}}>
