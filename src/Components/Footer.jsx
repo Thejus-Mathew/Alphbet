@@ -49,8 +49,9 @@ function Footer() {
             floating
             size="lg"
             className='text-dark m-1'
-            href='#!'
+            href='https://www.instagram.com/alphbets_edu_center/'
             role='button'
+            target='_blank'
           >
             <MDBIcon fab className='fa-instagram' />
           </MDBBtn>
