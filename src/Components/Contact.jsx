@@ -19,9 +19,9 @@ function Contact() {
             </div>
             <div className="col-sm-12 col-md-4 d-flex flex-column align-items-center flex-column pb-3">
                 <h5 className='border-bottom'>Contact Details</h5>
-                <p><i class="fa-solid fa-phone"></i> 7025606557</p>
-                <p><i class="fa-solid fa-phone"></i> 6238124860</p>
-                <p><i class="fa-solid fa-envelope"></i> dummy@gmail.com</p>
+                <a className='text-light' href="tel:7025606557"><p><i class="fa-solid fa-phone"></i> 7025606557</p></a>
+                <a className='text-light' href="tel:6238124860"><p><i class="fa-solid fa-phone"></i> 6238124860</p></a>
+                <a className='text-light' href="mailto:dummy@gmail.com"><p><i class="fa-solid fa-envelope"></i> dummy@gmail.com</p></a>
             </div>
             <div className="col-sm-0 col-md-2"></div>
         </div>
